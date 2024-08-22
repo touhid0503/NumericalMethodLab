@@ -1,0 +1,20 @@
+22-8-24
+bisection method
+f(a)f(b)>0
+f(a)f(b)>0
+f(a)f(b)<0
+f(a)<0 f(b)>0
+
+c=a+b/2
+
+a c (close)
+
+f(a)f(c)>0
+a<-c
+
+b c (close)
+f(b)f(c)>0
+b<-c
+
+f(c)==0
+xr
