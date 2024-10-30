@@ -3,7 +3,7 @@ def f(x):
 
 
 def df(x):
-    return 3 * x - 1
+    return 3 * x**2 - 1
 
 
 def newtonraphson(x0, f, df, tol=1e-6, max_iter=100):
@@ -30,4 +30,4 @@ def newtonraphson(x0, f, df, tol=1e-6, max_iter=100):
     return x
 
 
-print(newtonraphson(2, f, df))
+print(newtonraphson(1, f, df))
